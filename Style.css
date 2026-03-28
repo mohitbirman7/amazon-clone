@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+}
+.box{
+    border: 2px solid transparent;
+    
+}
+.box:hover{
+    border: 2px solid white;
+    height: 56px;
+    align-self: center;
+}
+.box1{
+    align-self: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+.box1-logo{
+    background-image: url("amazone-logo.png"); 
+     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 30px;
+    width: 129px;
+    align-self: center;
+    
+    
+}
+.box2{
+    height: 60px;
+    width: 157px;
+    display: flex;
+    /* margin-left: 10px; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2-logo{
+    color: white;margin: 20px 4px 0 0;
+
+    
+}
+.box2-text{
+    color: white;
+    font-size: 16px;
+}
+.box2-text-uper{
+    font-size: 19px;
+}
+.box2-text-lower{
+    font-weight: 700;
+}
+.box3{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.box3-manager{
+    height: 47px;
+    display: flex;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+
+.box3-select{
+    height: 40px;
+    width: 50px;
+}
+.box3-search input{
+    height:40px;
+    width:256px;
+}.box3-search-logo span{
+    color:white;
+    background-color: orange;
+    width: 42px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box3-manager:focus-within {
+    background-color: orange;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    
+}
+.box4-container{
+    display: flex;
+  
+}
+.box4-left-container{
+    display: flex;
+    margin-right: 3px;
+    
+
+}
+.box4-left-container img{
+    height: 19px;
+    width: 25px;
+}
+.box4-left-container div{
+    text-decoration: none;
+    color: white;
+    margin: 0 3px 0 3px;
+    font-weight: 800;
+}
+.box4-drop{
+    color:white;
+}
+.box5{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:19px;
+    
+}
+.box5-manager{
+    display: flex;
+  
+}
+.box5-left-li-2{
+    font-weight: 800;
+}
+.box5-drop{
+    margin-top:20px;   
+}
+.box6{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6 a{
+    text-decoration: none;
+    color: white;
+   
+
+}
+.box6-li-2{
+    font-weight:800;
+}
+
+.box7 > span{
+   color:white;
+    font-size: 60px;
+}
+.span{
+    font-size: 32px;
+    color: white;
+    background-color: black;
+    position: relative;
+    right:52px;
+    bottom:5px;
+    height:30px;
+}
