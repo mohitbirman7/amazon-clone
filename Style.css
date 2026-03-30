@@ -406,3 +406,19 @@
     font-size: 12px;
 
 }
+.footer-4{
+    background-color: black;
+    border-top:2px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-4 img{
+    height: 50px;
+    margin-right: 50px;
+}
+.footer-4 h2{
+    color: white;
+    margin: 0 0 15px 10px;
+}
